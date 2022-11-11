@@ -1,9 +1,13 @@
 # GitHub Action: Delete tag and release
 
-Add following step to your workflow:
+Fork of the original that updates to node 16.
+
+---
+
+Add the following step to your workflow:
 
 ```yaml
-- uses: ClementTsang/delete-tag-and-release@v0.2.0
+- uses: ClementTsang/delete-tag-and-release@v0.3.1
   with:
     delete_release: true # default: false
     tag_name: v0.1.0 # tag name to delete

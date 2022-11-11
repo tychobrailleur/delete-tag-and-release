@@ -1,5 +1,5 @@
-name: Delete tag and release
-description: delete tag and release
+name: Delete Tags and GitHub Releases
+description: An action to delete a tag, and optionally its associated release.
 author: "Clement Tsang"
 
 branding:
