@@ -1,6 +1,6 @@
 name: Delete tag and release
 description: delete tag and release
-author: "dev-drprasad"
+author: "Clement Tsang"
 
 branding:
   color: "red"
@@ -19,5 +19,5 @@ inputs:
     required: false
 
 runs:
-  using: "node12"
+  using: "node16"
   main: "index.js"
