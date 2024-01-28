@@ -1,6 +1,6 @@
 # GitHub Action: Delete tag and release
 
-Fork of the original that updates to node 16.
+Fork of the original that updates to Node 20.
 
 ---
 
