@@ -2,6 +2,17 @@
 
 Fork of the original that updates to Node 20.
 
+**Note**: You may be able to skip using this if you are working on a GitHub-hosted runner,
+or you can install the `gh` tool, as `gh` now natively [can delete releases](https://cli.github.com/manual/gh_release_delete).
+For example:
+
+```yaml
+      - name: Delete tag
+        run: gh release delete $TAG --cleanup-tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
 ---
 
 Add the following step to your workflow:
