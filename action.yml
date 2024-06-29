@@ -17,7 +17,7 @@ inputs:
   repo:
     description: target repository as <owner>/<repository>
     required: false
-  delete_no_draft:
+  delete_non_draft:
     description: whether published (non-draft) releases can be deleted
     required: false
     default: false
